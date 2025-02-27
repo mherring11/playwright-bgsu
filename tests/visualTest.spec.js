@@ -488,7 +488,7 @@ test.describe("Visual Comparison Tests", () => {
   test("Test First Request Info Form Submission", async ({
     page,
   }, testInfo) => {
-    const stagingUrl = config.staging.baseUrl;
+    const stagingUrl = "https://onlinedegree.bgsu.edu/";
     const confirmationTextExpected = "Thanks for your submission!";
 
     const firstName = "Testfeb27";
